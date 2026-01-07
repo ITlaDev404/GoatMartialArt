@@ -1,0 +1,74 @@
+body {
+    background-image: url(../img/mauyThai1.png) ;
+    background-size: auto;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 600px;
+}
+.container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    color: #555;
+    margin-bottom: 5px;
+}
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.form-group input:focus {
+    border-color: red;
+    outline: none;
+}
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 50px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.btn:hover {
+    background-color: #b30000;
+}
+.link {
+    margin-left: 0%;
+    margin-top: 150px; 
+   
+       
+}
+.link a {
+    color: #ff0000;
+    text-decoration: none;
+    font-size: 14px;
+}
+.link a:hover {
+    text-decoration: underline;
+}

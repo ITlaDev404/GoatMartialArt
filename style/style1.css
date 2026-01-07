@@ -1,0 +1,844 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.headerAccueil {
+  background-color: white ;
+  margin: 0;
+  padding: 0;
+  height: 400px;
+  position: relative;
+  
+}
+footer{
+  background-color: rgb(185, 87, 87);
+  margin-top: 300px;
+  margin-top: 300px;
+  padding: 0;
+  height: 250px;
+  position: relative;
+}
+
+.footer-link  {
+position: relative;
+bottom: 0;
+text-align: center;
+color: #ffffff;
+font-size: 30px;
+
+}
+.footer-link :hover {
+  text-decoration: underline;
+  color: #f2f2f2;
+  
+}
+/*page 1*/
+
+.accueilBody {
+  
+  background: linear-gradient(to top,rgb(255, 255, 255), #8e0000);
+}
+
+.accueilTitre {
+  font-size: 85px;
+  color: rgb(44, 49, 49);
+  text-align: justify;
+  padding-top: 80px;
+  padding-left: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(187, 0, 0);
+}
+
+.imgAccueil {
+  position: absolute;   /* Position absolue pour permettre un placement fixe */
+  top: 0;               /* Place en haut du conteneur parent */
+  left: 80%;             /* Aligne à droite */
+  padding-right: 200px;  /* Ajoute un petit espace autour de l'image pour ne pas être collée */
+  padding-top: 40px;
+  background-image: url('../img/mauyThai1.webp');
+  background-size: contain; /* Pour ajuster la taille de l'image */
+  background-repeat: no-repeat; /* Empêche la répétition */
+  width: 300px; /* Largeur définie */
+  height: 350px; /* Hauteur définie */
+  
+}
+
+.imgAccueil img {
+  width: 300px;         /* Garde la taille de l'image */;
+  
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+}
+
+h3 {
+  text-align: left;
+}
+
+main {
+  text-align: center;
+}
+
+/*table*/
+table {
+  width: 60%;
+  margin: 50px auto;
+  border-collapse: collapse;
+  padding-top: 100px;
+  margin-top: 100px;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #ff0000;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+/*page1(mma) -------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------*/
+
+
+.main-mma
+{
+  width: 3000px;
+  background-color: rgba(58, 58, 58, 0.7);
+  margin-top: 0 auto;
+  padding-top:50px;
+  padding-bottom: 100px;
+  margin-bottom: 0;
+  width: 90%;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 300px;
+  padding-right: 300px;
+ 
+}
+.h2mma
+{
+  color: #ddd;
+  font-size: 50px;
+}
+.pmma
+{
+  color: #dddddde0;
+  font-size: 30px;
+}
+.body-mma {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  color: #333;
+  background-image: url(../img/mma/mma-backround.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover  ;
+}
+
+.header-mma {
+  text-align: center;
+  background: rgba(80, 79, 79, 0.9);
+  color: white;
+  padding-bottom: 250px;
+  margin-bottom: 0px;
+
+}
+
+h1, h2 {
+  margin-bottom: 1rem;
+}
+.goats
+{
+  color: aliceblue;
+}
+
+
+
+section {
+  margin-bottom: 2rem;
+}
+
+.fighter {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  background: rgba(255, 252, 252, 0.7);
+}
+
+.fighter-img {
+  max-width: 100%;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+.footer-mma {
+  text-align: center;
+  padding: 1rem;
+  background: #222;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+.ufc
+{
+  width: 300px; 
+height: 150px; 
+background-image: url('../img/mma/ufc.png'); 
+background-size: cover; 
+background-position: center; 
+background-repeat: no-repeat; 
+position: absolute;
+top: 20px;
+left: 1%;
+  
+}
+.pride
+{
+  width: 350px; 
+  height: 150px;
+  background-image: url('../img/mma/pride.com.png'); 
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  position: absolute;
+  top: 20px;
+  left: 18%;
+}
+.bellator
+{
+  width: 180px; 
+  height: 180px;
+  background-image: url('../img/mma/bellator.png'); 
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  position: absolute;
+  top: 20px;
+  left: 65% ;
+}
+.pfl
+{
+  width: 200px; 
+  height: 200px;
+  background-image: url('../img/mma/ProfessionalFightersLeagueShieldLogo.png'); 
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  position: absolute;
+  top: 10px;
+  
+  padding-top: 0;
+  left: 85%;
+}
+.mma {
+  width: 300px; 
+  height: 300px;
+  background-image: url('../img/mma/mma.png'); 
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  position: absolute;
+  top: -50px; /* Ajustez cette valeur pour déplacer le logo plus haut */
+  left: 49%; /* Centré horizontalement */
+  transform: translateX(-50%); /* Facultatif : Pour un centrage plus précis */
+}
+
+.accueil-link {
+width: 300px; 
+height: 350px;
+background-image: url('../img/mauyThai2.png'); 
+background-size: cover;
+background-position: center; 
+background-repeat: no-repeat; 
+position: absolute;
+top: -50px; /* Ajustez cette valeur pour déplacer le logo plus haut */
+left: 10%; /* Centré horizontalement */
+transform: translateX(-50%); /* Facultatif : Pour un centrage plus précis */
+}
+
+/*page2(grappling) -------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------*/
+.main-grappling
+{
+  width: 3000px;
+  background-color: rgba(93, 93, 93, 0.7);
+  margin-top: 0 auto;
+  padding-top:50px;
+  padding-bottom: 100px;
+  margin-bottom: 0;
+  width: 90%;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 300px;
+  padding-right: 300px;
+ 
+}
+.h2grappling
+{
+  color: #ddd;
+  font-size: 50px;
+}
+.pgrappling
+{
+  color: #dddddde0;
+  font-size: 30px;
+}
+.body-grappling {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  color: #333;
+  background-image: url(../img/grappling/grappling-backround.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover  ;
+}
+
+.header-grappling {
+  text-align: center;
+  background: rgba(59, 59, 59, 0.7);
+  color: white;
+  padding-bottom: 250px;
+  margin-bottom: 0px;
+
+}
+
+h1, h2 {
+  margin-bottom: 1rem;
+}
+.goats
+{
+  color: aliceblue;
+}
+
+
+
+section {
+  margin-bottom: 2rem;
+}
+
+.fighter-grappling {
+  border: 1px solid #5d5d5d;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  background: rgba(116, 116, 116, 0.7); 
+}
+
+.fighter-img {
+  max-width: 100%;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+.footer-grappling {
+  text-align: center;
+  padding: 1rem;
+  background: #222;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+.adcc
+{
+  width: 350px; 
+height: 150px; 
+background-image: url('../img/grappling/adcc-retina-logo.png'); 
+background-size: cover; 
+background-position: center; 
+background-repeat: no-repeat; 
+position: absolute;
+top: 20px;
+left: 1%;
+  
+}
+.naga
+{
+  width: 350px; 
+  height: 150px;
+  background-image: url('../img/grappling/naga.png') ;
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  position: absolute;
+  top: 20px;
+  left: 25%;
+}
+.one
+{
+  width: 350px; 
+  height: 200px;
+  background-image: url('../img/mma/one.png'); 
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  position: absolute;
+  top: 20px;
+  left: 52% ;
+}
+.ibjjf
+{
+  width: 500px; 
+  height: 100px;
+  background-image: url('../img/grappling/ibjjf.png'); 
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  position: absolute;
+  top: 20%;
+  
+  padding-top: 0;
+  left: 73%;
+}
+.mma {
+  width: 300px; 
+  height: 300px;
+  background-image: url('../img/mma/mma.png'); 
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  position: absolute;
+  top: -50px; 
+  left: 49%; 
+  transform: translateX(-50%); 
+}
+
+.accueil-link2 {
+width: 300px; 
+height: 350px;
+background-image: url('../img/mauythai2.2.png'); 
+background-size: cover;
+background-position: center; 
+background-repeat: no-repeat; 
+position: absolute;
+top: -50px; /* Ajustez cette valeur pour déplacer le logo plus haut */
+left: 10%; /* Centré horizontalement */
+transform: translateX(-50%); /* Facultatif : Pour un centrage plus précis */
+}
+/*page3(jjb) -------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------*/
+.main-jjb
+{
+  width: 3000px;
+  background-color: rgba(255, 247, 0, 0.7);
+  margin-top: 0 auto;
+  padding-top:50px;
+  padding-bottom: 100px;
+  margin-bottom: 0;
+  width: 90%;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 300px;
+  padding-right: 300px;
+ 
+}
+.h2jjb
+{
+  color: #0008e8;
+  font-size: 50px;
+}
+.pjjb
+{
+  color: #4049efe0;
+  font-size: 30px;
+}
+.body-jjb {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  color: #333;
+  background-image: url(../img/jjb/jjb_backround.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover  ;
+}
+
+.header-jjb {
+  text-align: center;
+  background:   rgba(0, 0, 255, 0.7);
+  color: white;
+  padding-bottom: 350px;
+  margin-bottom: 0px;
+
+}
+
+h1, h2 {
+  margin-bottom: 1rem;
+}
+.goats
+{
+  color: rgb(0, 135, 254);
+}
+
+
+
+section {
+  margin-bottom: 2rem;
+}
+
+.fighter-jjb {
+  border: 1px solid #5d5d5d;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  background: rgba(0, 55, 255, 0.7); 
+}
+
+.fighter-img {
+  max-width: 100%;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+.footer-jjb{
+  text-align: center;
+  padding: 1rem;
+  background: rgba(0, 0, 255, 0.7);
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+.uaejjf
+{
+  width: 350px; 
+height: 350px; 
+background-image: url('../img/jjb/uaejjf.png'); 
+background-size: cover; 
+background-position: center; 
+background-repeat: no-repeat; 
+position: absolute;
+top: 0%;
+left: 25%;
+  
+}
+
+
+.ibjjf1
+{
+  width: 600px; 
+  height: 170px;
+  background-image: url('../img/grappling/ibjjf.png'); 
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  position: absolute;
+  top: 20%;
+  
+  padding-top: 0;
+  left: 60%;
+}
+
+
+.accueil-link3 {
+width: 300px; 
+height: 350px;
+background-image: url('../img/mauythai2.3.png'); 
+background-size: cover;
+background-position: center; 
+background-repeat: no-repeat; 
+position: absolute;
+top: -50px; /* Ajustez cette valeur pour déplacer le logo plus haut */
+left: 10%; /* Centré horizontalement */
+transform: translateX(-50%); /* Facultatif : Pour un centrage plus précis */
+}
+
+/*page4(mauy) -------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------*/
+
+
+.main-mauy
+{
+  width: 3000px;
+  background-color: rgba(3, 6, 168, 0.7);
+  margin-top: 0 auto;
+  padding-top:50px;
+  padding-bottom: 100px;
+  margin-bottom: 0;
+  width: 90%;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 300px;
+  padding-right: 300px;
+ 
+}
+.h2mauy
+{
+  color: #ddd;
+  font-size: 50px;
+}
+.pmauy
+{
+  color: #dddddde0;
+  font-size: 30px;
+}
+.body-mauy {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #ececec;
+  color: #ffffff;
+  background-image: url(../img/mauy-thai/mauy_backround.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover  ;
+}
+
+.header-mauy {
+  text-align: center;
+  background: rgba(204, 1, 1, 0.7);
+  color: white;
+  padding-bottom: 300px;
+  margin-bottom: 0px;
+
+}
+
+h1, h2 {
+  margin-bottom: 1rem;
+}
+.goats
+{
+  color: aliceblue;
+}
+
+
+
+section {
+  margin-bottom: 2rem;
+}
+
+.fighter-mauy{
+  border: 1px solid #0019a4;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  background: rgba(173, 0, 0, 0.7); 
+}
+
+.fighter-img {
+  max-width: 100%;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+.footer-mauy {
+  text-align: center;
+  padding: 1rem;
+  background: #222;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+
+.one
+{
+  width: 350px; 
+  height: 200px;
+  background-image: url('../img/mma/one.png'); 
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  position: absolute;
+  top: 20px;
+  left: 52% ;
+}
+.wmc
+{
+  width: 350px; 
+  height: 290px;
+  background-image: url('../img/mauy-thai/WMC.png'); 
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  position: absolute;
+  top: 0%;
+  left: 28% ;
+}
+
+
+.accueil-link2 {
+width: 300px; 
+height: 350px;
+background-image: url('../img/mauythai2.2.png'); 
+background-size: cover;
+background-position: center; 
+background-repeat: no-repeat; 
+position: absolute;
+top: -50px; /* Ajustez cette valeur pour déplacer le logo plus haut */
+left: 10%; /* Centré horizontalement */
+transform: translateX(-50%); /* Facultatif : Pour un centrage plus précis */
+}
+/*page5(kick) -------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------*/
+.main-kick
+{
+  width: 3000px;
+  background-color: rgba(39, 39, 39, 0.7);
+  margin-top: 0 auto;
+  padding-top:50px;
+  padding-bottom: 100px;
+  margin-bottom: 0;
+  width: 90%;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 300px;
+  padding-right: 300px;
+ 
+}
+.h2kick
+{
+  color: #ddd;
+  font-size: 50px;
+}
+.pkick
+{
+  color: #dddddde0;
+  font-size: 30px;
+}
+.body-kick {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #ececec;
+  color: #ffffff;
+  background-image: url(../img/kick-boxing/kick-backround.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover  ;
+}
+
+.header-kick {
+  text-align: center;
+  background: rgba(240, 240, 240, 0.7);
+  color: white;
+  padding-bottom: 300px;
+  margin-bottom: 0px;
+
+}
+
+h1, h2 {
+  margin-bottom: 1rem;
+}
+.goats
+{
+  color: aliceblue;
+}
+
+
+
+section {
+  margin-bottom: 2rem;
+}
+
+.fighter-kickboxing{
+  border: 1px solid #0019a4;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  background: rgba(255, 255, 255, 0.7); 
+}
+
+.fighter-img {
+  max-width: 100%;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+.footer-kick {
+  text-align: center;
+  padding: 1rem;
+  background: #222;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+
+.k-1
+{
+  width: 350px; 
+  height: 100px;
+  background-image: url('../img/kick-boxing/K-1_Logo.png'); 
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  position: absolute;
+  top: 20px;
+  left: 52% ;
+}
+.glory
+{
+  width:550px; 
+  height: 110px;
+  background-image: url('../img/kick-boxing/GLORY-logo.png'); 
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  position: absolute;
+  top: 10%;
+  left: 20% ;
+}
+
+
+.accueil-link2 {
+width: 300px; 
+height: 350px;
+background-image: url('../img/kickthai2.2.png'); 
+background-size: cover;
+background-position: center; 
+background-repeat: no-repeat; 
+position: absolute;
+top: -50px; /* Ajustez cette valeur pour déplacer le logo plus haut */
+left: 10%; /* Centré horizontalement */
+transform: translateX(-50%); /* Facultatif : Pour un centrage plus précis */
+}
