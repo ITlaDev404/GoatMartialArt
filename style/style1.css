@@ -41,12 +41,12 @@ font-size: 30px;
 }
 /*page 1*/
 
-.accueilBody {
+.indexBody {
   
   background: linear-gradient(to top,rgb(255, 255, 255), #8e0000);
 }
 
-.accueilTitre {
+.indexTitre {
   font-size: 85px;
   color: rgb(44, 49, 49);
   text-align: justify;
@@ -271,7 +271,7 @@ left: 1%;
   transform: translateX(-50%); /* Facultatif : Pour un centrage plus précis */
 }
 
-.accueil-link {
+.index-link {
 width: 300px; 
 height: 350px;
 background-image: url('../img/mauyThai2.png'); 
@@ -437,7 +437,7 @@ left: 1%;
   transform: translateX(-50%); 
 }
 
-.accueil-link2 {
+.index-link2 {
 width: 300px; 
 height: 350px;
 background-image: url('../img/mauythai2.2.png'); 
@@ -569,7 +569,7 @@ left: 25%;
 }
 
 
-.accueil-link3 {
+.index-link3 {
 width: 300px; 
 height: 350px;
 background-image: url('../img/mauythai2.3.png'); 
@@ -701,7 +701,7 @@ section {
 }
 
 
-.accueil-link2 {
+.index-link2 {
 width: 300px; 
 height: 350px;
 background-image: url('../img/mauythai2.2.png'); 
@@ -830,7 +830,7 @@ section {
 }
 
 
-.accueil-link2 {
+.index-link2 {
 width: 300px; 
 height: 350px;
 background-image: url('../img/kickthai2.2.png'); 
